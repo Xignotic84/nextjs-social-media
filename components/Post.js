@@ -1,4 +1,4 @@
-import {Avatar, Box, Heading, Image, Skeleton, Text, Tooltip} from "@chakra-ui/react";
+import {Avatar, Box, Heading, Skeleton, Text, Tooltip} from "@chakra-ui/react";
 import ThumbnailModal from "./ThumbnailModal";
 import {useState} from "react";
 
@@ -9,7 +9,7 @@ export default function Post({post}) {
     setLoadState(true)
   }, 2000)
 
-  return <Skeleton position={"relative"} borderRadius={4} isLoaded={loadState} m={3} w={550} p={4} bg={"gray.700"}>
+  return <Skeleton position={"relative"} borderRadius={4} isLoaded={loadState} w={550} mt={5} p={4} bg={"gray.700"}>
     <Box display={"flex"}>
       <Avatar
           size={"sm"}
