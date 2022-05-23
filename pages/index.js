@@ -50,7 +50,7 @@ export default function Home({user, posts, tags}) {
         </Box>
         <SimpleGrid display={"flex"} flexDirection={"column"} p={2}>
           <Box>
-            <Heading fontSize={27 } mb={3}>
+            <Heading fontSize={27} mb={3}>
               Trending Tags
             </Heading>
           </Box>
